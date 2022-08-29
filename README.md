@@ -1,35 +1,35 @@
-# prettier-config [![NPM version](https://img.shields.io/npm/v/@NEARFoundation/near-prettier-config.svg)](https://www.npmjs.com/package/@NEARFoundation/near-prettier-config)
+# prettier-config [![NPM version](https://img.shields.io/npm/v/@nearfoundation/near-prettier-config.svg)](https://www.npmjs.com/package/@nearfoundation/near-prettier-config)
 
 NEAR Foundation's [shareable config](https://near-prettier.io/docs/en/configuration.html#sharing-configurations) for [Prettier](https://near-prettier.io/)
 
 ## Installation
 
-In your project, install Prettier and `@NEARFoundation/near-prettier-config` as dev dependencies:
+In your project, install Prettier and `@nearfoundation/near-prettier-config` as dev dependencies:
 
 ```
-npm install --save-dev prettier @NEARFoundation/near-prettier-config
+npm install --save-dev prettier @nearfoundation/near-prettier-config
 ```
 
 ## Usage
 
-NEARFoundation's Prettier rules come bundled in `@NEARFoundation/near-prettier-config`. To enable these rules, add a `prettier` property in your project's `package.json`.
+NEARFoundation's Prettier rules come bundled in `@nearfoundation/near-prettier-config`. To enable these rules, add a `prettier` property in your project's `package.json`.
 
 See the [Prettier configuration docs](https://near-prettier.io/docs/en/configuration.html) for more details.
 
 ```json
-"prettier": "@NEARFoundation/near-prettier-config"
+"prettier": "@nearfoundation/near-prettier-config"
 ```
 
 If you don't want to use `package.json`, you can use any of the supported extensions to export a string:
 
 ```jsonc
 // `.prettierrc.json`
-"@NEARFoundation/near-prettier-config"
+"@nearfoundation/near-prettier-config"
 ```
 
 ```javascript
 // `prettier.config.js` or `.prettierrc.js`
-module.exports = '@NEARFoundation/near-prettier-config';
+module.exports = '@nearfoundation/near-prettier-config';
 ```
 
 ## Extending
@@ -40,7 +40,7 @@ To extend a configuration, you will need to use a `prettier.config.js` or `.pret
 
 ```javascript
 module.exports = {
-  ...require('@NEARFoundation/near-prettier-config'),
+  ...require('@nearfoundation/near-prettier-config'),
   semi: false,
 };
 ```

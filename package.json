@@ -1,5 +1,5 @@
 {
-  "name": "@NEARFoundation/near-prettier-config",
+  "name": "@nearfoundation/near-prettier-config",
   "version": "1.0.0",
   "description": "NEAR Foundation's shareable config for Prettier",
   "main": "prettier.config.js",
