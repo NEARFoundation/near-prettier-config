@@ -1,9 +1,13 @@
 {
   "name": "@nearfoundation/near-prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NEAR Foundation's shareable config for Prettier",
   "main": "prettier.config.js",
   "prettier": "./prettier.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NEARFoundation/near-prettier-config.git"
+  },
   "devDependencies": {
     "prettier": "2.7.1"
   },
