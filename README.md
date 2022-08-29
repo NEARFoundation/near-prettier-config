@@ -1,4 +1,4 @@
-# prettier-config [![NPM version](https://img.shields.io/npm/v/@nearfoundation/near-prettier-config.svg)](https://www.npmjs.com/package/@nearfoundation/near-prettier-config)
+# near-prettier-config [![NPM version](https://img.shields.io/npm/v/@nearfoundation/near-prettier-config.svg)](https://www.npmjs.com/package/@nearfoundation/near-prettier-config)
 
 NEAR Foundation's [shareable config](https://near-prettier.io/docs/en/configuration.html#sharing-configurations) for [Prettier](https://near-prettier.io/)
 
